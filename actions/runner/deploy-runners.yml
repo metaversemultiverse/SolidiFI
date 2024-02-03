@@ -1,12 +1,13 @@
 # Generate the code for use on GitHub to deploy runners.
 
-To get started, you'll need to follow a few simple steps. First, make sure you have an active GitHub account. If you don't have one already, head over to github.com and sign up for free. Once you're logged in, create a new repository where you want to deploy the runners.
+# To get started, you'll need to follow a few simple steps. First, make sure you have an active GitHub account. If you don't have one already, head over to github.com and sign up for free. Once you're logged in, create a new repository where you want to deploy the runners.
 
 # Next, navigate to the "Actions" tab of your repository. This is where you can set up and manage workflows for your project. Click on the "Set up a workflow yourself" button to create a new workflow file.
 
 # In the workflow file, you'll need to define the configuration for deploying the runners. Here's a sample code snippet that you can use as a starting point:
 
-yaml
+#yaml
+
 name: Deploy Runners
 
 on:
